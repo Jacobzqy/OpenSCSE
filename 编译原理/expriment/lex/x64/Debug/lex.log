@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Jacobzqy\Desktop\course\编译原理\expriment\lex\parameters.h(29,1): warning C4005: “EOF”: 宏重定义
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22000.0\ucrt\stdio.h(41,1): message : 参见“EOF”的前一个定义
+  lex.vcxproj -> C:\Users\Jacobzqy\Desktop\course\编译原理\expriment\lex\x64\Debug\lex.exe

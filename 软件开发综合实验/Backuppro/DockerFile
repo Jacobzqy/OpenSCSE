@@ -1,0 +1,25 @@
+FROM ubuntu
+
+#设置非交互模式跳过时区设置
+ENV DEBIAN_FRONTEND=noninteractive
+MAINTAINER yunrenfeng@uestc.edu.cn
+
+#设置工作区路径
+ENV MYPATH /usr/local/myapp
+RUN mkdir $MYPATH
+
+WORKDIR $MYPATH
+
+#复制用于构建镜像的文件到指定目录
+COPY . $MYPATH
+
+#配置环境（安装相关工具和依赖）
+RUN apt-get update
+RUN apt-get install -y  vim 
+RUN apt-get install -y  sudo
+RUN apt-get install -y unzip
+RUN apt-get install -y build-essential cmake libssl-dev
+
+#编译运行
+RUN rm -rf build && mkdir build
+RUN cd build && cmake .. && make &&make install

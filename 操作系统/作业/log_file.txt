@@ -1,0 +1,27 @@
+重复文件属性如下:
+group1:
+名称:.\test\a\a in a.txt
+文件大小:2字节
+所在磁盘盘符 :C
+文件创建时间:Mon Oct 10 02:17:49 2022
+访问日期:Mon Oct 10 02:17:56 2022
+最后修改日期:Mon Oct 10 02:17:55 2022
+重复文件属性如下:
+group2:
+名称:.\test\b - 副本.txt
+文件大小:2字节
+所在磁盘盘符 :C
+文件创建时间:Mon Oct 10 02:18:25 2022
+访问日期:Mon Oct 10 02:18:25 2022
+最后修改日期:Mon Oct 10 00:55:13 2022
+重复文件属性如下:
+group3:
+名称:.\test\c - 副本.txt
+文件大小:2字节
+所在磁盘盘符 :C
+文件创建时间:Mon Oct 10 02:18:22 2022
+访问日期:Mon Oct 10 02:18:22 2022
+最后修改日期:Mon Oct 10 01:01:28 2022
+.\test\a out.txt has been deleted
+.\test\b.txt has been deleted
+.\test\c.txt has been deleted
